@@ -78,7 +78,7 @@
 </div>
 
 <a-scene
-  mindar-image="imageTargetSrc: targets.mind;"
+  mindar-image="imageTargetSrc: targets.mind; filterMinCF: 0.0001; filterBeta: 0.001; warmupTolerance: 3; missTolerance: 15;"
   vr-mode-ui="enabled: false"
   device-orientation-permission-ui="enabled: false"
 >
@@ -263,4 +263,5 @@
 </script>
 
 </body>
+
 </html>
